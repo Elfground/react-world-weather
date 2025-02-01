@@ -1,0 +1,8 @@
+.Weather ul {
+list-style-type: none;
+}
+
+.Weather {
+    border: 1px solid #dddddd;
+    max-width: 600px;
+}
