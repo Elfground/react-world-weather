@@ -22,15 +22,14 @@ padding: 0;
 }
 
 .Weather img {
-    height: 64px;
-    width: 64px;
+    height: 70px;
+    width: 70px;
     margin-right: 10px;
 }
 
 .Weather .temperature {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 70px;
     padding: 0;
     display: inline-block;
 }
@@ -38,7 +37,7 @@ padding: 0;
     font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -32px;
+    top: -26px;
     margin-left: 4px;
     line-height: 1;
 }
