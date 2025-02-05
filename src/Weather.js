@@ -20,6 +20,7 @@ export default function Weather(props) {
             feels_like: response.data.temperature.feels_like,
             humidity: response.data.temperature.humidity,
             wind: response.data.wind.speed,
+            coordinates: response.data.coordinates,
         });
     }
 
@@ -51,7 +52,7 @@ export default function Weather(props) {
             </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates}/>
     </div>
     );
 } else {
