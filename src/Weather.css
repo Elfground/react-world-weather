@@ -4,11 +4,14 @@
     max-width: 600px;
     padding: 25px;
     margin: auto;
-    color: rgb(85, 85, 85)
+    color: white;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
 }
+
 
 .Weather h1 {
     margin: 20px 0 0 0;
+    font-size: 60px;
 }
 
 .Weather ul {
