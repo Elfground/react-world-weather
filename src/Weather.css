@@ -1,11 +1,10 @@
 .Weather {
-    border: 1px solid #dddddd;
     border-radius: 5px;
     max-width: 600px;
     padding: 25px;
     margin: auto;
     color: white;
-    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background: linear-gradient(to top, rgba(147, 39, 255, 0.8) 0%, rgba(239, 32, 222, 0.8) 100%);
 }
 
 
@@ -25,22 +24,22 @@ padding: 0;
 }
 
 .Weather img {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     margin-right: 10px;
 }
 
 .Weather .temperature {
-    font-size: 50px;
-    line-height: 70px;
+    font-size: 70px;
+    line-height: 100px;
     padding: 0;
     display: inline-block;
 }
 .Weather .unit {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     position: relative;
-    top: -26px;
+    top: -32px;
     margin-left: 4px;
     line-height: 1;
 }
