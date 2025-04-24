@@ -7,19 +7,19 @@
   }
   
   .spring {
-    background: linear-gradient(to top, #45F5EC, #FF94BB);
+    background: linear-gradient(0deg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
   }
   
   .summer {
-    background: linear-gradient(to top, #f6d365, #fda085);
+    background: linear-gradient(0deg,rgba(87, 199, 133, 1) 0%, rgba(237, 221, 83, 1) 100%);
   }
   
   .autumn {
-    background: linear-gradient(to top, #fbc2eb, #a6c1ee);
+    background: linear-gradient(0deg,rgba(222, 78, 78, 1) 0%, rgba(255, 235, 82, 1) 100%);
   }
   
   .winter {
-    background: linear-gradient(to top, #83a4d4, #b6fbff);
+    background: linear-gradient(180deg,rgba(100, 100, 189, 1) 0%, rgba(155, 221, 232, 1) 100%);
   }
 
 
