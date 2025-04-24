@@ -1,24 +1,25 @@
 .Weather {
-    min-height: 100vh;
-    padding: 20px;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 25px;
     transition: background 0.6s ease-in-out;
     color: white;
   }
   
   .spring {
-    background: linear-gradient(to right, #a8edea, #fed6e3);
+    background: linear-gradient(to top, #45F5EC, #FF94BB);
   }
   
   .summer {
-    background: linear-gradient(to right, #f6d365, #fda085);
+    background: linear-gradient(to top, #f6d365, #fda085);
   }
   
   .autumn {
-    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    background: linear-gradient(to top, #fbc2eb, #a6c1ee);
   }
   
   .winter {
-    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    background: linear-gradient(to top, #83a4d4, #b6fbff);
   }
 
 
