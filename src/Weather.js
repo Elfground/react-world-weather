@@ -8,6 +8,14 @@ export default function Weather(props) {
     const [weatherData, setWeatherData] = useState({ ready: false });
     const [city, setCity] = useState (props.defaultCity);
 
+    function getSeason() {
+        const month = new Date().getMonth(); // 0 = Jan, 11 = Dec
+        if (month >= 2 && month <= 4) return "spring";
+        if (month >= 5 && month <= 7) return "summer";
+        if (month >= 8 && month <= 10) return "autumn";
+        return "winter";
+    }
+
     function handleResponse(response) {
         setWeatherData({
             ready: true,
@@ -38,8 +46,9 @@ export default function Weather(props) {
         setCity(event.target.value);
     }
     if (weatherData.ready) {
+        const season = getSeason();
     return (
-         <div className="Weather">
+         <div className={`Weather ${season}`}>
         <form onSubmit={handleSubmit}>
             <div className="row">
                 <div className="col-9">
